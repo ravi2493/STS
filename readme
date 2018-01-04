@@ -1,0 +1,11 @@
+
+
+to visualize the network and loss values,
+1. Open command prompt
+2. cd Sentence_similarity (change path according to the location of the project)
+3. execute this command 'tensorboard --logdir=summaries_backup' on command prompt
+
+
+To trian the model
+1. Set the path in glove.py
+2. run train_combined_model.py file and the best model will be saved to saved_model folder.
